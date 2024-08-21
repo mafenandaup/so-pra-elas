@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="external-files/titleless.png" type="image/png">
     <title>SPE:Login</title>
 </head>
@@ -14,9 +20,11 @@
         <div class="imgspe">
             <img src="external-files/sopelas.png" alt="logo SPE" height="380px" id="logomarca">
         </div>
-        <div class="btns">
-            <input type="email" name="" id="" class="email">
-            <input type="password" name="" id="">
+        <div class="btncontain">
+            <label for="email" class="labels">Login (e-mail/username)</label>
+            <input type="email" name="emails" class="inptstrt"><br>
+            <label for="password" class="labels">insira sua senha</label>
+            <input type="password" name="password" class="inptstrt">
         </div>
     </div>
     <script src="functions.js"></script>

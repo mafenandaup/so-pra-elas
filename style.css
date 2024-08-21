@@ -1,17 +1,40 @@
-
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
 
-body{
-    background: linear-gradient(#F4A5AE, #F6F7EB);
+body {
+  background: linear-gradient(#F4A5AE, #F6F7EB);
 }
 
-#logomarca{
-  filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.3)); 
+.containerinicio {
+  background-color: aqua;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logomarca {
+  filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.3));
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+}
+
+.inptstrt {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 14px;
+  width: 200px;
+}
+
+.labels {
+  text-align: left; /* Align labels to the left */
+  margin-bottom: 5px; /* Add some space between the label and input */
+  font-family: Outfit;
 }
