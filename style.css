@@ -9,7 +9,7 @@ body {
 }
 
 .containerinicio {
-  background-color: aqua;
+
   width: max-content;
   margin-left: auto;
   margin-right: auto;
@@ -29,12 +29,33 @@ body {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 14px;
+  border-radius: 10px;
   width: 200px;
+  text-align: left; /* Center the text inside the input fields */
+background-color: #e4bec8;
+border-color: #9F2042;
+border-width: 4px;
+font-family: Outfit;
 }
 
 .labels {
-  text-align: left; /* Align labels to the left */
-  margin-bottom: 5px; /* Add some space between the label and input */
+  margin-bottom: 2px; /* Add some space between the label and input */
   font-family: Outfit;
+}
+
+.btncontain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the input fields */
+  width: 100%; /* Ensure the container takes full width */
+  margin-bottom: 20px;
+}
+
+.btns{
+  background-color: #9F2042;
+border-color: #9F2042;
+border-width: 4px;
+border-radius: 15px;
+color: #F6F7EB;
+font-family: Outfit;
 }
