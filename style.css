@@ -68,3 +68,19 @@ font-family: Outfit;
   display: flex;
   align-items: center;
 }
+
+.signupcontainer{
+  display: inline-block;
+  height: 700px;
+  width: 600px;
+  background-color: #F6F7EB;
+ vertical-align: middle;
+  text-align: center;
+  border-radius: 24px;
+  filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.2));
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 200px;
+ 
+ 
+}
