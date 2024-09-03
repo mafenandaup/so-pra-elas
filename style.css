@@ -39,8 +39,9 @@ font-family: Outfit;
 }
 
 .labels {
-  margin-bottom: 2px; /* Add some space between the label and input */
+  margin-bottom: 1px; /* Add some space between the label and input */
   font-family: Outfit;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 .btncontain {
@@ -71,13 +72,15 @@ font-family: Outfit;
 
 .signupcontainer {
   height: 700px;
-  width: 600px;
+  width: 500px;
   background-color: #F6F7EB;
   text-align: center;
   border-radius: 24px;
   filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.2));
   margin-top: 40px;
   margin-left: 90px;
+  position: relative;
+  top: 80px;
 }
 
 
@@ -95,10 +98,22 @@ font-family: Outfit;
 }
 
 .loginwith img {
-  height: 100px;
+  height: 110px;
   position: relative;
- top: 40px;
- left: 200px;
+ top: 30px;
+ left: 130px;
  filter: saturate(1.1);
 filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.3));
+}
+
+p{
+  font-family: outfit;
+}
+
+.btnsection1{
+  height: 420px;
+  width: auto;
+  background-color: aqua;
+  margin-top: 50px;
+  align-items: center;
 }
