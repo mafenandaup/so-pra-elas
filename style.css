@@ -95,5 +95,10 @@ font-family: Outfit;
 }
 
 .loginwith img {
-  height: 50px;
+  height: 100px;
+  position: relative;
+ top: 40px;
+ left: 200px;
+ filter: saturate(1.1);
+filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.3));
 }
