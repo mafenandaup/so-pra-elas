@@ -32,15 +32,17 @@ body {
   border-radius: 10px;
   width: 250px;
   height: auto;
-  text-align: left; /* Center the text inside the input fields */
-background-color: #e4bec8;
-border-color: #9F2042;
-border-width: 4px;
-font-family: Outfit;
+  text-align: left;
+  /* Center the text inside the input fields */
+  background-color: #e4bec8;
+  border-color: #9F2042;
+  border-width: 4px;
+  font-family: Outfit;
 }
 
 .labels {
-  margin-bottom: 1px; /* Add some space between the label and input */
+  margin-bottom: 1px;
+  /* Add some space between the label and input */
   font-family: Outfit;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
 }
@@ -48,27 +50,26 @@ font-family: Outfit;
 .btncontain {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the input fields */
-  width: 100%; /* Ensure the container takes full width */
+  align-items: center;
+  /* Center the input fields */
+  width: 100%;
+  /* Ensure the container takes full width */
   margin-bottom: 20px;
 }
 
-.btns{
+.btns {
   background-color: #9F2042;
-border-color: #9F2042;
-border-width: 4px;
-border-radius: 15px;
-color: #F6F7EB;
-font-family: Outfit;
+  border-color: #9F2042;
+  border-width: 4px;
+  border-radius: 15px;
+  color: #F6F7EB;
+  font-family: Outfit;
 }
 
-#logo2{
+#logo2 {
   height: 350px;
   filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.3));
-  float: right;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
+  padding: 70px;
 }
 
 .signupcontainer {
@@ -90,7 +91,7 @@ font-family: Outfit;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  gap:20px
+  gap: 20px
 }
 
 .loginwith {
@@ -102,21 +103,20 @@ font-family: Outfit;
 .loginwith img {
   height: 110px;
   position: relative;
- top: 30px;
- left: 130px;
- filter: saturate(1.1);
-filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.3));
+  top: 30px;
+  left: 130px;
+  filter: saturate(1.1);
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
-p{
+p {
   font-family: outfit;
   font-weight: 300;
 }
 
-.btnsection1{
+.btnsection1 {
   height: 420px;
   width: auto;
-  background-color: aqua;
   margin-top: 50px;
   align-items: center;
   padding-left: 20px;
