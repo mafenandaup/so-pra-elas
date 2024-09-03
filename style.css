@@ -30,7 +30,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  width: 200px;
+  width: 250px;
+  height: auto;
   text-align: left; /* Center the text inside the input fields */
 background-color: #e4bec8;
 border-color: #9F2042;
@@ -81,6 +82,7 @@ font-family: Outfit;
   margin-left: 90px;
   position: relative;
   top: 80px;
+  left: 40px;
 }
 
 
@@ -108,6 +110,7 @@ filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.3));
 
 p{
   font-family: outfit;
+  font-weight: 300;
 }
 
 .btnsection1{
@@ -116,4 +119,6 @@ p{
   background-color: aqua;
   margin-top: 50px;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
