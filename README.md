@@ -1,2 +1,1 @@
-# so-pra-elas
-*A SER ATT*
+# Só pra Elas
