@@ -17,7 +17,7 @@ section {
   background-color: var(--ivory);
   padding: 2rem;
   width: 100vw;
-  height: 4rem;
+  height: 6rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,17 +27,83 @@ section {
     text-decoration: none;
     color: var(--amaranth-purple);
     font-weight: 800;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-out;
   }
 
   && img{
-    z-index: 3;
+    height: 4.8rem;
   }
 }
 
 .nav-links{
   display: flex;
-  gap: 1rem;
+  gap: 1.4rem;
+  padding: 2rem;
   text-align: center;
   justify-content: center;
   
+}
+
+.hero-nav a:hover{
+ color: var(--puce);
+}
+
+.hero-nav a:active{
+ color: var(--chocolate-cosmos);
+}
+
+@media (max-width: 972px) {
+  .hero-nav {
+    padding: 1rem;
+
+     && a {
+    font-size: 1rem;
+  }
+
+  && img{
+      height: 4rem;
+  }
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .hero-nav {
+    padding: 1rem;
+
+     && a {
+    font-size: 0.8rem;
+  }
+
+  && img{
+      height: 3.4rem;
+  }
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero-nav {
+    padding: 1rem;
+
+     && a {
+    font-size: 0.65rem;
+  }
+
+  && img{
+      height: 3rem;
+  }
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
 }

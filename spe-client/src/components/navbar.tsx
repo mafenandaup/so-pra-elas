@@ -1,16 +1,17 @@
 import "../styles/hero.css"
+import {motion} from "framer-motion"
 
 const Navbar = () => {
   return (
       <>
           <nav className="hero-nav">
-              <img src="./../assets/logos/sopelas.png" alt="so pra elas logo" />
+              <img src="./src//assets/logos/sopelas.png" alt="so pra elas logo" />
               
               <div className="nav-links">
-               <a href="#depoimentos">Depoimentos</a>
-               <a href="#about">Sobre nós</a>
-               <a href="#servicos">Servicos</a>
-               <a href="#contact">Entre em contato</a>
+               <motion.a whileHover={{scale: 1.1}} href="#depoimentos">Depoimentos</motion.a>
+               <motion.a  whileHover={{scale: 1.1}} href="#about">Sobre nós</motion.a>
+               <motion.a  whileHover={{scale: 1.1}} href="#servicos">Servicos</motion.a>
+               <motion.a  whileHover={{scale: 1.1}} href="#contact">Entre em contato</motion.a>
               </div>
           </nav>
       </>

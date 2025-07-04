@@ -6,7 +6,9 @@ const Hero = () => {
     <>
        <Navbar />
       <section className="content-section">
-        <h1>Hero Section</h1>
+        <div className="hero-contents">
+          
+        </div>
       </section>
     </>
   )
