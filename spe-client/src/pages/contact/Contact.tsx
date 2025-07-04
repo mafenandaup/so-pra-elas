@@ -6,7 +6,7 @@ import '../../styles/contact.css'
 const Contact = () => {
   return (
       <>
-          <footer className="contact-container">
+          <footer className="contact-container" id='contact'>
                 <div className="divisor">
                
                         <h2>Sobre nós</h2>

@@ -9,6 +9,35 @@
   --china-rose: #a8577eff;
 }
 
-section{
-      min-width: 100vw;
+section {
+  min-width: 100vw;
+}
+
+.hero-nav {
+  background-color: var(--ivory);
+  padding: 2rem;
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  && a {
+    text-decoration: none;
+    color: var(--amaranth-purple);
+    font-weight: 800;
+  }
+
+  && img{
+    z-index: 3;
+  }
+}
+
+.nav-links{
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+  
 }
