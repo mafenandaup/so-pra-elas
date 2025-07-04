@@ -118,7 +118,37 @@ section {
   color: var(--chocolate-cosmos);
 }
 
+@media (max-width: 1600px) {
+  .hero-contents{
+    width: 46rem;
+  }
+
+  .hero-contents h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-contents button{
+  margin-top: 1rem;
+  padding: 0.8rem;
+}
+}
+
 @media (max-width: 972px) {
+
+   .hero-contents{
+    width: 40rem;
+  }
+
+  .hero-contents h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+  .hero-contents p {
+  font-size: 0.8rem;
+}
+
   .hero-nav {
     padding: 1rem;
 
@@ -153,6 +183,25 @@ section {
   .nav-links {
     gap: 1rem;
   }
+  .hero-bg {
+ 
+  padding: 4rem;
+}
+}
+
+@media (max-width: 650px) {
+     .hero-contents{
+    width: 45rem;
+  }
+
+  .hero-contents h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+  .hero-contents p {
+  font-size: 0.6rem;
+}
 }
 
 @media (max-width: 550px) {
