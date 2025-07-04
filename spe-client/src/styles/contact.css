@@ -32,6 +32,7 @@ html {
 .divisor {
     padding: 2rem;
     text-align: baseline;
+    width: 30%;
 
     && h2 {
         margin-bottom: 1rem;
@@ -39,8 +40,79 @@ html {
 }
 
 
-@media (max-width: 860) {
- h1{
- color: black;
- }
+@media (max-width: 1580px) {
+.divisor {
+
+    && h2 {
+    font-size: 1.2rem;
     }
+     && p {
+    font-size: 0.8rem;
+    }
+}
+}
+
+@media (max-width: 1040px) {
+.divisor {
+
+    && h2 {
+    font-size: 1rem;
+    }
+     && p {
+    font-size: 0.6rem;
+    }
+}
+}
+
+@media (max-width: 700px) {
+.divisor {
+
+    && h2 {
+    font-size: 0.9rem;
+    }
+     && p {
+    font-size: 0.5rem;
+    }
+}
+
+.contact-container {
+    gap: 0.5rem;
+    padding: 30px 20px;
+}
+}
+
+@media (max-width: 550px) {
+.divisor {
+
+    && h2 {
+    font-size: 0.7rem;
+    }
+     && p {
+    font-size: 0.4rem;
+    }
+}
+
+.contact-container {
+    gap: 0.5rem;
+    padding: 30px 10px;
+}
+}
+
+
+@media (max-width: 550px) {
+.divisor {
+
+    && h2 {
+         margin-bottom: 0.8rem;
+    font-size: 0.7rem;
+    }
+     && p {
+    font-size: 0.32rem;
+    }
+}
+
+.contact-container {
+    gap: 0.1rem;
+    padding: 30px 10px;
+}
+}
