@@ -1,0 +1,37 @@
+ .content-section-extended {
+     background:linear-gradient(135deg, var(--ivory), var(--puce));
+     min-width: 100vw;
+     padding: 3rem;
+     height: 66rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     && img{
+        border-radius: 22px;
+        border: solid 5px var(--amaranth-purple);
+     }
+
+ }
+
+ .about-content{
+    display: flex;
+    width: 70rem;
+    height: auto;
+    padding: 2rem;
+
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    color: var(--chocolate-cosmos);
+ }
+
+
+ .about-textbox{
+    display: flex;
+    flex-direction: column;
+    color: var(--amaranth-purple);
+    width: 40%;
+ }
