@@ -1,9 +1,13 @@
 import Hero from "./pages/home/Hero"
+import Contact from "./pages/contact/contact"
+import About from "./pages/about/About"
 function App() {
 
   return (
     <>
-   <h1 className="test">hiiiiiiiiiiiiiiiii</h1>
+      <Hero />
+      <About/>
+      <Contact/>
     </>
   )
 }

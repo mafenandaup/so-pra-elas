@@ -21,7 +21,11 @@
 }
 
 .content-section {
-  background-color: #f4a5aeff;
+  background-color: #f4a5ae;
+  min-width: 100vw;
+  padding: 3rem;
+  height: 26rem;
+  border: solid 2px var(--puce);
 
 }
 

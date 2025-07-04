@@ -2,9 +2,11 @@
 import '../../styles/hero.css'
 const Hero = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <section className="content-section">
+        <h1>Hero Section</h1>
+      </section>
+    </>
   )
 }
 
