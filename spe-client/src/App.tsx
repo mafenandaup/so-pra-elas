@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       <Hero />
+      <About />
       <About/>
+      <About />     
+      {/* filler content só até eu fazer novos componentes */}
       <Contact/>
     </>
   )

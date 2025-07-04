@@ -1,0 +1,46 @@
+:root {
+    --black: #030301ff;
+    --chocolate-cosmos: #511222ff;
+    --amaranth-purple: #9f2042ff;
+    --ivory: #f6f7ebff;
+    --tea-rose-red: #f5cecdff;
+    --cherry-blossom-pink: #f4a5aeff;
+    --puce: #ce7e96ff;
+    --china-rose: #a8577eff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 12.8rem;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background-color: var(--amaranth-purple);
+    font-weight: 400;
+}
+
+.divisor {
+    padding: 2rem;
+    text-align: baseline;
+
+    && h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (max-width: 860) {
+ h1{
+ color: black;
+ }
+    }
