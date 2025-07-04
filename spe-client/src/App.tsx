@@ -1,15 +1,16 @@
 import Hero from "./pages/home/Hero"
-import Contact from "./pages/contact/contact"
+import Contact from "./pages/contact/Contact"
 import About from "./pages/about/About"
+import Servicos from "./pages/serviços/Servicos"
+import Depoimentos from "./pages/depoimentos/Depoimentos"
 function App() {
 
   return (
     <>
       <Hero />
       <About />
-      <About/>
-      <About />     
-      {/* filler content só até eu fazer novos componentes */}
+      <Servicos />
+      <Depoimentos/>
       <Contact/>
     </>
   )
