@@ -1,4 +1,4 @@
-import "../styles/hero.css"
+import "../../styles/hero.css"
 import {motion} from "framer-motion"
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
               <div className="nav-links">
                <motion.a whileHover={{scale: 1.1}} href="#depoimentos">Depoimentos</motion.a>
                <motion.a  whileHover={{scale: 1.1}} href="#about">Sobre nós</motion.a>
-               <motion.a  whileHover={{scale: 1.1}} href="#servicos">Servicos</motion.a>
+               <motion.a  whileHover={{scale: 1.1}} href="#servicos">Serviços</motion.a>
                <motion.a  whileHover={{scale: 1.1}} href="#contact">Entre em contato</motion.a>
               </div>
           </nav>

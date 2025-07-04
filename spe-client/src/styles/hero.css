@@ -53,7 +53,29 @@ section {
   padding: 2rem;
   width: 60rem;
   text-align: center;
-  background-color: black;
+}
+
+.hero-contents h1 {
+  color: var(--amaranth-purple);
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-contents button{
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: solid 2px var(--amaranth-purple);
+  color: var(--amaranth-purple);
+  background-color: var(--ivory);
+  border-radius: 12px;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  font-weight: 600;
+}
+
+.hero-contents button:hover {
+  cursor: pointer;
+  color: var(--ivory);
+  background-color: var(--amaranth-purple);
 }
 
 .hero-nav {
