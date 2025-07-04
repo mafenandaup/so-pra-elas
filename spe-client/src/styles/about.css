@@ -121,7 +121,7 @@
  
  @media (max-width: 750px) {
      .content-section-extended {
-            height: 44rem;
+            height: 46rem;
 
      && img {
         height: 12rem;
@@ -129,7 +129,7 @@
 
  }
      .about-content {
-         width: 44rem;
+         width: 50rem;
          gap: 1rem;
      }
 
@@ -140,14 +140,14 @@
          }
 
          && p {
-            font-size: 0.5rem;
+            font-size: 0.6rem;
          }
      }
  }
 
   @media (max-width: 600px) {
      .content-section-extended {
-            height: 44rem;
+            height: 54rem;
 
      && img {
         height: 11rem;
@@ -172,18 +172,18 @@
 
  }
      .about-content {
-         width: 28rem;
+         width: 30rem;
          gap: 1rem;
      }
 
      .about-textbox {
 
          && h1 {
-             font-size: 1rem;
+             font-size: 1.1rem;
          }
 
          && p {
-            font-size: 0.4rem;
+            font-size: 0.5rem;
          }
      }
  }
