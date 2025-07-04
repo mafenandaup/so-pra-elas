@@ -1,6 +1,6 @@
 /* global styles */
 
-#root {
+:root {
   --black: #030301ff;
   --chocolate-cosmos: #511222ff;
   --amaranth-purple: #9f2042ff;
@@ -15,14 +15,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Rethink Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
+.content-section {
+  background-color: #f4a5aeff;
+
+}
+
 body {
-  min-height: 100vh;
-  width: 100vh;
+  background-color: var(--china-rose);
+  color: var(--ivory);
+  display: flex;
+  height: 100vh;
+  min-width: 100vh;
   overflow-x: hidden;
   /* Hide horizontal scrollbar */
 

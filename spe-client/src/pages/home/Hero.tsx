@@ -1,5 +1,5 @@
 
-
+import '../../styles/hero.css'
 const Hero = () => {
   return (
     <div>

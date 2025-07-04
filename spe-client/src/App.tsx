@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-    <Hero/>
+   <h1 className="test">hiiiiiiiiiiiiiiiii</h1>
     </>
   )
 }
