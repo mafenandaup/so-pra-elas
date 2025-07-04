@@ -1,0 +1,29 @@
+/* global styles */
+
+#root {
+  --black: #030301ff;
+  --chocolate-cosmos: #511222ff;
+  --amaranth-purple: #9f2042ff;
+  --ivory: #f6f7ebff;
+  --tea-rose-red: #f5cecdff;
+  --cherry-blossom-pink: #f4a5aeff;
+  --puce: #ce7e96ff;
+  --china-rose: #a8577eff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vh;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+
+}

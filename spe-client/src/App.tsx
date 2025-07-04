@@ -1,11 +1,9 @@
-
-import './App.css'
-
+import Hero from "./pages/home/Hero"
 function App() {
 
   return (
     <>
-    <h1>hi</h1>
+    <Hero/>
     </>
   )
 }
