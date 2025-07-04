@@ -15,9 +15,9 @@ const Contact = () => {
               <div className="divisor">
                
                    <h2>Redes Sociais</h2>
-                  <p> <FontAwesomeIcon icon={faInstagram} className="social-icon" /> @sopraelas</p>
-                  <p> <FontAwesomeIcon icon={faXTwitter} className="social-icon" /> @sopraelas</p>
-                  <p> <FontAwesomeIcon icon={faWhatsapp} className="social-icon" /> (71) 99999-9999</p>
+                  <p> <FontAwesomeIcon icon={faInstagram} className="social-icon" />   @sopraelas</p>
+                  <p> <FontAwesomeIcon icon={faXTwitter} className="social-icon" />   @sopraelas</p>
+                  <p> <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />   (71) 99999-9999</p>
               </div>
                 <div className="divisor">
                   <p>&copy;2025 Maria Fernanda Maia - Todos os direitos reservados.</p>

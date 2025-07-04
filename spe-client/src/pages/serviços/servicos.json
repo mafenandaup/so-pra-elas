@@ -1,0 +1,29 @@
+
+{
+    "servicos": [
+        {
+        "title": "Primeira Habilitação",
+        "img": "",
+        "description": "Conquiste a sua CNH no melhor CFC para mulheres em todo o nordeste! (Categorias A,B,C e AB)"
+        },
+          {
+        "title": "Alteração/Inclusão de Categoria",
+        "img": "",
+        "description": "Conquiste a sua CNH no melhor CFC para mulheres em todo o nordeste (Categorias A,B,C e AB)"
+        },
+          {
+        "title": "Curso de Reciclagem",
+        "img": "",
+        "description": "Para as motoristas que cometeram infrações graves ou suspensão da CNH, ajudando a recuperar o direito de dirigir."
+        },
+          {
+        },
+          {
+        "title": "Aulas de Reforço",
+        "img": "",
+        "description": "Para as motoristas que já possuem a CNH, mas ainda não se sentem seguras ao dirigir em ambientes muito distintos."
+        },
+          {
+        }
+    ]
+}
