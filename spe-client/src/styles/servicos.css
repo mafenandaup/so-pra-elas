@@ -1,0 +1,61 @@
+:root {
+  --black: #030301ff;
+  --chocolate-cosmos: #511222ff;
+  --amaranth-purple: #9f2042ff;
+  --ivory: #f6f7ebff;
+  --tea-rose-red: #f5cecdff;
+  --cherry-blossom-pink: #f4a5aeff;
+  --puce: #ce7e96ff;
+  --china-rose: #a8577eff;
+}
+
+.servicos-contain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+    width: 100vw;
+    
+}
+
+.servico-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: var(--amaranth-purple) solid 4px;
+  border-radius: 20px;
+  
+     background-color: var(--cherry-blossom-pink);
+     padding: 2rem;
+     height: 20rem;
+     width: 20rem;
+
+     && h1{
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      text-align: center;
+     }
+
+     && p{
+text-align: center;
+     }
+}
+
+.servicos{
+ height: 34rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.servicos-title{
+font-size: 3rem;
+}
+
+.servico-icon{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}

@@ -1,4 +1,4 @@
-
+import '../../styles/servicos.css'
 import { faIdCard, faRecycle, faFlagCheckered, faCarSide } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -18,13 +18,13 @@ icon: keyof typeof iconMap;
 const Servico = ({title, icon, description} : ServicoProps) => {
   return (
  <>
-      <div className="servico-element"></div>
-      <div className="servico-icon"><FontAwesomeIcon icon={iconMap[icon]} /></div>
+      <div className="servico-element">
+      <FontAwesomeIcon icon={iconMap[icon]} className='servico-icon'/>
       <div className="servico-textbox">
       <h1>{ title}</h1>
       <p>{description}</p>
       </div>
-
+</div>
     </>
   )
 }

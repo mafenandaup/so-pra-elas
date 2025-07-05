@@ -9,21 +9,18 @@
           {
         "title": "Alteração/Inclusão de Categoria",
         "icon": "faCarSide",
-        "description": "Realize testes de aptidão e converta sua CNH para a categoria desejada(Categorias A,B,C e AB)"
+        "description": "Realize testes de aptidão e converta sua CNH para a categoria desejada. (Categorias A,B,C e AB)"
         },
           {
         "title": "Curso de Reciclagem",
         "icon": "faRecycle",
         "description": "Para as motoristas que cometeram infrações graves ou suspensão da CNH, ajudando a recuperar o direito de dirigir."
         },
-          {
-        },
+          
           {
         "title": "Aulas de Reforço",
         "icon": "faFlagCheckered",
         "description": "Para as motoristas que já possuem a CNH, mas ainda não se sentem seguras ao dirigir em ambientes muito distintos."
-        },
-          {
         }
     ]
 }

@@ -5,7 +5,7 @@ import '../../styles/depoimentos.css'
 const Depoimentos = () => {
   return (
     <>
-      <section className="content-section" id="depoimentos">
+      <section className="content-section depoimentos" id="depoimentos">
         <div className="depoimentos-contain">
               {depoimentos.map((depoimento) => (
            <Depoimento key={depoimento.nome} nome={depoimento.nome} text={depoimento.text} date={depoimento.date} />
