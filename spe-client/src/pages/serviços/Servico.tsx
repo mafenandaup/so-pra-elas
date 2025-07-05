@@ -2,6 +2,14 @@ import '../../styles/servicos.css'
 import { faIdCard, faRecycle, faFlagCheckered, faCarSide } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { motion, scale, stagger } from "framer-motion";
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+    exit: { opacity: 0, y: -50, transition: { duration: 0.4 } },
+};
+
 const iconMap = {
   faIdCard,
   faRecycle,
@@ -18,13 +26,13 @@ icon: keyof typeof iconMap;
 const Servico = ({title, icon, description} : ServicoProps) => {
   return (
  <>
-      <div className="servico-element">
+      <motion.div className="servico-element" variants={itemVariants}>
       <FontAwesomeIcon icon={iconMap[icon]} className='servico-icon'/>
-      <div className="servico-textbox">
+     
       <h1>{ title}</h1>
       <p>{description}</p>
-      </div>
-</div>
+        
+</motion.div>
     </>
   )
 }
