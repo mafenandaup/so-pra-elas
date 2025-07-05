@@ -1,37 +1,37 @@
 {
     "depoimentos": [
         {
-        "name": "Maria dos Anjos",
+        "nome": "Maria dos Anjos",
         "text": "Adorei o atendimento, todos são super atenciosos!",
         "date": "2024-10-01"
         },
         {
-        "name": "Ana Clara Santos",
+        "nome": "Ana Clara Santos",
         "text": "Entrei nessa autoescola em 2023, desde então recomendo pra todas as minhas amigas. Estão de parabéns!",
         "date": "2024-10-27"
         },
            {
-        "name": "Vivian Almeida",
+        "nome": "Vivian Almeida",
         "text": "Tinha muita insegurança de sequer pegar no volante, mas a equipe foi super atenciosa e me deixou confortável.",
         "date": "2023-10-03"
         },
            {
-        "name": "Cida Brito",
+        "nome": "Cida Brito",
         "text": "Simplesmente me fez adorar dirigir, mesmo no trânsito caótico da cidade.",
         "date": "2023-12-21"
         },
            {
-        "name": "Júlia Pontes Seixas",
+        "nome": "Júlia Pontes Seixas",
         "text": "Uhuuuuu sou motorista agora! A equipe é incrível, me senti super apoiada durante todo o processo.",
         "date": "2024-08-09"
         },
            {
-        "name": "Maria Eduarda Costa",
+        "nome": "Maria Eduarda Costa",
         "text": "Nunca vou esquecer o dia que quase desmaiei tentando fazer marcha ré kkkkk mas a instrutora me salvou, ela é demais S2",
         "date": "2021-05-26"
         },
            {
-        "name": "Ana Bispo",
+        "nome": "Ana Bispo",
         "text": "Adoro o clima descontraído das aulas, é como se eu estivesse dirigindo com amigas.",
         "date": "2024-05-16"
         }

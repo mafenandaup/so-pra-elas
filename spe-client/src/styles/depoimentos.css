@@ -1,0 +1,16 @@
+:root {
+  --black: #030301ff;
+  --chocolate-cosmos: #511222ff;
+  --amaranth-purple: #9f2042ff;
+  --ivory: #f6f7ebff;
+  --tea-rose-red: #f5cecdff;
+  --cherry-blossom-pink: #f4a5aeff;
+  --puce: #ce7e96ff;
+  --china-rose: #a8577eff;
+}
+
+.depoimentos-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
