@@ -20,6 +20,7 @@ Possui uma interface intuitiva e responsiva, e utiliza ícones para a associaç�
 
 - **Framer Motion (Biblioteca de animações flúidas)**
 - **FontAwesome (Biblioteca para ícones customizáveis)**
+- **Swiper (Para a criação de um slider interativo)** 
 
 ## Contribuições 
 
