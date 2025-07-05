@@ -1,4 +1,4 @@
-import "../../styles/hero.css"
+import "../../styles/local/hero.css"
 import {motion} from "framer-motion"
 
 const Navbar = () => {

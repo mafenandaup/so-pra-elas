@@ -1,6 +1,6 @@
 import Depoimento from "./Depoimento"
 import { depoimentos } from '../depoimentos/depoimentos.json'
-import '../../styles/depoimentos.css'
+import '../../styles/local/depoimentos.css'
 
 const Depoimentos = () => {
   return (

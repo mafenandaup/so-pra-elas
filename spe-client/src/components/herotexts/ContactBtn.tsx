@@ -3,7 +3,7 @@ import React from 'react'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { motion } from "framer-motion"
-import '../../styles/hero.css'
+import '../../styles/local/hero.css'
 
 interface textProps {
     texto: string

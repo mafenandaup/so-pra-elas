@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../../styles/depoimentos.css'
+import '../../styles/local/depoimentos.css'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 
 interface DepoimentoProps {

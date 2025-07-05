@@ -1,5 +1,5 @@
 import AboutContent from '../../components/about/AboutContent.jsx'
-import '../../styles/about.css'
+import '../../styles/local/about.css'
 
 const About = () => {
   return (

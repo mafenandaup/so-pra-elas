@@ -1,7 +1,7 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons'
-import '../../styles/contact.css'
+import '../../styles/local/contact.css'
 
 const Contact = () => {
   return (

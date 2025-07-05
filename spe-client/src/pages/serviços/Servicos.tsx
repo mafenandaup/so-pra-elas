@@ -1,9 +1,9 @@
-import '../../styles/servicos.css'
+import '../../styles/local/servicos.css'
 import {servicos} from '../serviços/servicos.json';
 import Servico from '../serviços/Servico';
 import ContactBtn from '../../components/herotexts/ContactBtn'
 
-import { motion, scale, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 const skillVariants = {
     hidden: { opacity: 0 },

@@ -1,5 +1,5 @@
 
-import '../../styles/hero.css'
+import '../../styles/local/hero.css'
 import Navbar from '../../components/navbar/Navbar'
 import HeroTexts from '../../components/herotexts/HeroTexts'
 

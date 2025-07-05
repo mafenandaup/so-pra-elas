@@ -1,8 +1,8 @@
-import '../../styles/servicos.css'
+import '../../styles/local/servicos.css'
 import { faIdCard, faRecycle, faFlagCheckered, faCarSide } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { motion, scale, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 const itemVariants = {
     hidden: { opacity: 0, y: 50 },

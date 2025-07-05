@@ -19,7 +19,7 @@ section {
   justify-content: end;
   padding: 0rem 10rem;
   position: relative;
-  background-image: url('../assets/stockimgs/dirigindomulher.jpg');
+  background-image: url('../../assets/stockimgs/dirigindomulher.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
