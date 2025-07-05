@@ -11,7 +11,7 @@ interface DepoimentoProps {
 const Depoimento = ({nome, text, date}: DepoimentoProps) => {
   return (
       <div className="depoimento-element">
-      <div className="depoimento-icon"><FontAwesomeIcon icon={faUser}/></div>
+      <div className="depoimento-icon"><FontAwesomeIcon className='icon-img' icon={faUser}/></div>
       <h1>{nome}</h1>
       <p>{text}</p>
       <h5>Enviado em {date}</h5>

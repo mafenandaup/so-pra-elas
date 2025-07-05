@@ -1,0 +1,104 @@
+:root {
+    --black: #030301ff;
+    --chocolate-cosmos: #511222ff;
+    --amaranth-purple: #9f2042ff;
+    --ivory: #f6f7ebff;
+    --tea-rose-red: #f5cecdff;
+    --cherry-blossom-pink: #f4a5aeff;
+    --puce: #ce7e96ff;
+    --china-rose: #a8577eff;
+}
+
+.swiper {
+    padding: 2rem 0;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: var(--amaranth-purple);
+    /* cor padrão da seta */
+    font-size: 0.8rem;
+    font-weight: 900;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+    color: var(--tea-rose-red);
+    transform: scale(1.11);
+}
+
+.depoimentos-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.depoimento-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 16rem;
+    padding: 1rem 4rem;
+    text-align: center;
+
+    && p {
+        margin-top: 3px;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+}
+
+.depoimento-icon {
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    width: 4.6rem;
+    background-color: var(--china-rose);
+    color: ivory;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 1380px) {
+    .depoimento-element {
+        height: 16rem;
+        padding: 1rem 4rem;
+        text-align: center;
+
+        && h1 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        && p {
+            margin-top: 2px;
+            margin-bottom: 8px;
+            font-size: 0.6rem;
+        }
+    }
+
+    .depoimento-icon {
+    padding: 0.8rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    width: 3.4rem;
+    background-color: var(--china-rose);
+    color: ivory;
+    margin-bottom: 6px;
+}
+
+}
