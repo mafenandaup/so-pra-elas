@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
       <>
           <nav className="hero-nav">
-              <img src="./src//assets/logos/sopelas.png" alt="so pra elas logo" />
+              <img src='../../assets/logos/sopelas.png' alt="so pra elas logo" />
               
               <div className="nav-links">
                <motion.a whileHover={{scale: 1.1}} href="#depoimentos">Depoimentos</motion.a>
