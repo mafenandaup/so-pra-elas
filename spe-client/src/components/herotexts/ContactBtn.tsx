@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
