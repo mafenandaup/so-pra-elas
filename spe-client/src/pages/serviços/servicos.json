@@ -3,24 +3,24 @@
     "servicos": [
         {
         "title": "Primeira Habilitação",
-        "img": "",
+        "icon": "faIdCard",
         "description": "Conquiste a sua CNH no melhor CFC para mulheres em todo o nordeste! (Categorias A,B,C e AB)"
         },
           {
         "title": "Alteração/Inclusão de Categoria",
-        "img": "",
-        "description": "Conquiste a sua CNH no melhor CFC para mulheres em todo o nordeste (Categorias A,B,C e AB)"
+        "icon": "faCarSide",
+        "description": "Realize testes de aptidão e converta sua CNH para a categoria desejada(Categorias A,B,C e AB)"
         },
           {
         "title": "Curso de Reciclagem",
-        "img": "",
+        "icon": "faRecycle",
         "description": "Para as motoristas que cometeram infrações graves ou suspensão da CNH, ajudando a recuperar o direito de dirigir."
         },
           {
         },
           {
         "title": "Aulas de Reforço",
-        "img": "",
+        "icon": "faFlagCheckered",
         "description": "Para as motoristas que já possuem a CNH, mas ainda não se sentem seguras ao dirigir em ambientes muito distintos."
         },
           {
